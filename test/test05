@@ -1,0 +1,4 @@
+#!/bin/bash
+
+bin/hw < test/05.test > test/05.result
+diff test/05.sample test/05.result
